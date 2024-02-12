@@ -23,4 +23,11 @@ public class customerController {
         return service.getCustomer();
     }
 
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public String deleteCustomer(@PathVariable Long id){
+        service.deleteCustomer(id);
+        return "Deleted";
+    }
+
 }

@@ -8,4 +8,6 @@ import java.util.List;
 public interface CustomerService {
     void addCustomer(Customer customer);
     List<CustomerEntity> getCustomer();
+
+    boolean deleteCustomer(Long id);
 }

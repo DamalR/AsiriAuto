@@ -35,4 +35,14 @@ public class CustomerServiceImpl implements CustomerService {
     public List<CustomerEntity> getCustomer() {
         return (List<CustomerEntity>) repository.findAll();
     }
+
+    @Override
+    public boolean deleteCustomer(Long id) {
+        if(repository.existsById(id)){
+            repository.deleteById(id);
+            return true;
+        }else {
+            return false;
+        }
+    }
 }
