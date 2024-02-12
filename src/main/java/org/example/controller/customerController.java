@@ -14,8 +14,9 @@ public class customerController {
     @Autowired
     CustomerService service;
 
-    @PostMapping
+    @PostMapping("/add")
     public void addCustomer(@RequestBody Customer customer){
         service.addCustomer(customer);
+
     }
 }
