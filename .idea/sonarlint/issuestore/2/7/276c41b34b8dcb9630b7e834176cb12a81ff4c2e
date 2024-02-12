@@ -1,0 +1,10 @@
+
+p	java:S116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¬­Áøÿÿÿÿ8™–ÖÉÙ1
+J
+java:S1068"(Remove this unused "Name" private field.(É¬­Áøÿÿÿÿ8œ–ÖÉÙ1
+S
+java:S1068"1Remove this unused "contactNumber" private field.(©ĞïÕşÿÿÿÿ8œ–ÖÉÙ1
+K
+java:S1068")Remove this unused "email" private field.(ª«Õìùÿÿÿÿ8÷¾ÙÉÙ1
+M
+java:S1068"+Remove this unused "address" private field.(÷§ùÿÿÿÿ8Š‚İÉÙ1
