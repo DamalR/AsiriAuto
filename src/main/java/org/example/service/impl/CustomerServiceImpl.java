@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -44,5 +45,11 @@ public class CustomerServiceImpl implements CustomerService {
         }else {
             return false;
         }
+    }
+
+    @Override
+    public Customer getCustomerById(Long id) {
+        Optional<CustomerEntity> byId = repository.findById(id);
+        return mapper.map(byId,Customer.class);
     }
 }

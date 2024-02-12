@@ -18,6 +18,7 @@ public class customerController {
     public void addCustomer(@RequestBody Customer customer){
         service.addCustomer(customer);
     }
+
     @GetMapping("/get")
     public Iterable<CustomerEntity>getCustomer(){
         return service.getCustomer();
@@ -30,4 +31,8 @@ public class customerController {
         return "Deleted";
     }
 
+    @GetMapping("search/{id}")
+    public Customer getBookById(@PathVariable Long id){
+        return service.getCustomerById(id);
+    }
 }

@@ -10,4 +10,8 @@ public interface CustomerService {
     List<CustomerEntity> getCustomer();
 
     boolean deleteCustomer(Long id);
+
+    Customer  getCustomerById(Long id);
+
+
 }
