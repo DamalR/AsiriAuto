@@ -15,3 +15,11 @@ l
 <src/main/java/org/example/controller/customerController.java,f\c\fc0ae8f71bb2e840a15007d35b1e2060ad74d2d7
 f
 6src/main/java/org/example/service/CustomerService.java,4\9\4954ace079105e8f31b638baef5d8352ff055b69
+h
+8src/main/java/org/example/repository/BookRepository.java,b\7\b7783d39ca81aa027ce3a0f700c9f233ca4aa9da
+l
+<src/main/java/org/example/repository/CustomerRepository.java,b\2\b2d0fac719895649afdc53b399f1fa65fafbdcbd
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
